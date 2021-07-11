@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+  /* overflow: hidden; */
+  background-color: black;
+  color:white;
+}
+
+footer{
+  background-color: #D7331D;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer a{
+  margin: 3px;
+  color: white;
+}
+
+nav{
+  background-color: #45018D;
+}
+
+.textcolor{
+  color: white;
+}
+.media{
+  margin-top: 20px;
+  border: solid white 1px;
+  padding: 10px;
+  /* overflow: auto; */
+}
+
+.mycontent{
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
