@@ -8,7 +8,7 @@ Pre-requisites including Git, Python 3.4x or newer with pip. To obtain the blank
 <br>
 
 ### Navigate to the cloned repo
-   `cd Techno-blog`
+   `cd MicroSocial`
 <br>
 
 ### Install Django in the system
