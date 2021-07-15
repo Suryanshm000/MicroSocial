@@ -50,8 +50,8 @@ class PostDetail(SelectRelatedMixin, generic.DetailView):
 
 class CreatePost(LoginRequiredMixin, SelectRelatedMixin, generic.CreateView):
     # form_class = forms.PostForm
-    fields = ('message','group')
     model = models.Post
+    fields = ('message','group')
 
     # def get_form_kwargs(self):
     #     kwargs = super().get_form_kwargs()

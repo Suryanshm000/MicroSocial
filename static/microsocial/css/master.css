@@ -1,6 +1,5 @@
 body {
   margin: 0px;
-  /* overflow: hidden; */
   background-color: black;
   color:white;
 }
@@ -26,13 +25,24 @@ nav{
   color: white;
 }
 .media{
-  margin-top: 20px;
-  border: solid white 1px;
-  padding: 10px;
-  /* overflow: auto; */
+  margin-top: 25px;
+  border: solid white 0.1px;
+  padding: 20px;
 }
 
 .mycontent{
   padding-top: 20px;
   padding-bottom: 60px;
+}
+/* .media-body{
+  float: left;
+  margin-left: 0px;
+} */
+
+            /* ----- small screen devices -------- */
+
+@media (max-width:550px){
+  .media{
+    overflow: auto;
+  }
 }
