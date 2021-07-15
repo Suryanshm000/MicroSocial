@@ -1,4 +1,7 @@
 # MicroSocial
+I have deployed my Web App on Heroku server you can access through the link.
+
+Here is the link for MicroSocial : https://microsocial.herokuapp.com 
 
 # For local host
 Pre-requisites including Git, Python 3.4x or newer with pip. To obtain the blank site on local host, these are the steps to follow:
