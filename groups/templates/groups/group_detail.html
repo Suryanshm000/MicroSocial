@@ -6,29 +6,29 @@
   <h2> Member Count: {{group.members.count}}</h2>
   
   <div class="content">
-	  {% if user in group.members.all %}
-	  <a href="{% url 'groups:leave' slug=group.slug %}" class="btn btn-lg btn-warning"><span class="fa fa-times-circle-o"></span> Leave</a>
-  	{% else %}
-	  <a href="{% url 'groups:join' slug=group.slug %}" class="btn btn-lg btn-warning"><span class="fa fa-check-circle-o"></span> Join</a>
-  	{% endif %}
-	  
-	</div> 
-		<a href="{% url 'posts:create' %}" class="btn btn-primary btn-lg" style="margin-top: 20px;">Post</a>   
+      {% if user in group.members.all %}
+      <a href="{% url 'groups:leave' slug=group.slug %}" class="btn btn-lg btn-warning"><span class="fa fa-times-circle-o"></span> Leave</a>
+      {% else %}
+      <a href="{% url 'groups:join' slug=group.slug %}" class="btn btn-lg btn-warning"><span class="fa fa-check-circle-o"></span> Join</a>
+      {% endif %}
+      
+      <a href="{% url 'posts:create' %}" class="btn btn-primary btn-lg" style="margin-left: 10px;">Post</a>   
+    </div> 
 </div>
 {% endblock %}
 
 {% block group_content %}
 
 <div class="col-md-10">
-	{% if group.posts.count == 0 %}
-	<h2>No posts in this group yet!</h2>
+    {% if group.posts.count == 0 %}
+    <h2>No posts in this group yet!</h2>
 
-	{% else %}
+    {% else %}
 
-		{% for post in group.posts.all %}       <!--  using related name from post model  -->
-			{% include "posts/_post.html" %}
-		{% endfor %}
+        {% for post in group.posts.all %}       <!--  using related name from post model  -->
+            {% include "posts/_post.html" %}
+        {% endfor %}
 
-	{% endif %}
+    {% endif %}
 </div>
 {% endblock %}
