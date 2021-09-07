@@ -1,7 +1,7 @@
 body {
   margin: 0px;
-  background-color: rgb(14, 13, 13);
-  color:white;
+  background-color: #0e1420;
+  color:#ebedee;
 }
 
 footer{
@@ -24,10 +24,16 @@ nav{
 .textcolor{
   color: white;
 }
+
 .media{
   margin-top: 25px;
-  border: solid white 0.1px;
-  padding: 20px;
+  border: 0.2px solid white;
+  padding: 18px;
+  padding-top: 10px;
+}
+
+.media div p{
+  font-weight: 500;
 }
 
 .mycontent{

@@ -1,7 +1,7 @@
 <div class="media">
 	<div class="media-body">
 		
-		<strong >{{ post.message_html|safe }}</strong>
+		<p>{{ post.message_html|safe }}</p>
 
 		<h5 ><a href="{% url 'posts:for_user' username=post.user.username %}">@{{ post.user.username }}</a></h5>
 		
