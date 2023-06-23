@@ -30,3 +30,16 @@ Create the database and perform all migrations (Database file "thetechblog.sqlit
 Start the server
 <br>
 `python manage.py runserver`
+
+# Snapshots
+
+![m1](https://github.com/Suryanshm000/MicroSocial/assets/65828169/1b5bf043-fd00-489c-a895-3ea498cc406a) 
+
+![m2](https://github.com/Suryanshm000/MicroSocial/assets/65828169/22a78a9d-e478-4862-aed3-5cad50efdcb5)
+
+![m3](https://github.com/Suryanshm000/MicroSocial/assets/65828169/8744e882-5206-43e9-9a46-95212d6ed958)
+
+![m4](https://github.com/Suryanshm000/MicroSocial/assets/65828169/7ed15f72-9617-47b4-808f-61d3481a5270)
+
+
+
